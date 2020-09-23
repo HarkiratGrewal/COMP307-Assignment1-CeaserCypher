@@ -1,7 +1,6 @@
-package Lab1;
 import java.util.Scanner;
 
-public class CeaserCipherTest {    
+public class CaeserCipher {    
     public static void main(String[] args) {
     	String message = "";
     	int key;
@@ -72,3 +71,4 @@ public class CeaserCipherTest {
 		return decryptedMessage;
 	}	//	encrypt
 }	//	CaeserCipher Class End
+
