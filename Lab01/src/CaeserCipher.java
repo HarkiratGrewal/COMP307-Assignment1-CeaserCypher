@@ -19,7 +19,7 @@ public class CaeserCipher {
             } while (key < 0);
             System.out.println("Original Message: " + message);
             System.out.println("Encrypted Message: " + encrypt(message, key));
-            System.out.println("Encrypted Message: " + decrypt(encrypt(message, key), key) + "\n");
+            System.out.println("Decrypted Message: " + decrypt(encrypt(message, key), key) + "\n");
         }	//	loop infinite
     }	//	main End
     public static String encrypt(String message, int key) {
@@ -71,4 +71,3 @@ public class CaeserCipher {
 		return decryptedMessage;
 	}	//	encrypt
 }	//	CaeserCipher Class End
-
